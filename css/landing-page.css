@@ -129,3 +129,19 @@ footer.footer {
   height: 50px;
   width: auto;
 }
+
+.bg-color1 {
+  background-color: #a6c6c1!important;
+}
+
+.bg-color2 {
+  background-color: #e6e0cf!important;
+}
+
+.bg-color3 {
+  background-color: #debfb5!important;
+}
+
+.bg-color4 {
+  background-color: #baa6a5!important;
+}
