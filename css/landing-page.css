@@ -34,7 +34,7 @@ header.masthead .overlay {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 header.masthead h1 {
@@ -131,17 +131,17 @@ footer.footer {
 }
 
 .bg-color1 {
-  background-color: #a6c6c1!important;
+  background-color: #ffd700!important;
 }
 
 .bg-color2 {
-  background-color: #e6e0cf!important;
+  background-color: #ff9912!important;
 }
 
 .bg-color3 {
-  background-color: #debfb5!important;
+  background-color: #ff8000!important;
 }
 
 .bg-color4 {
-  background-color: #baa6a5!important;
+  background-color: #fd4e00!important;
 }
