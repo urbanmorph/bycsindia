@@ -62,18 +62,27 @@
   <!-- Icons Grid -->
   <section class="features-icons text-center">
     <div class="container">
+      <div class="alert alert-warning mb-5 text-center lead" role="alert">
+        <a href="https://airtable.com/shrIZGMN7H549KAPo" target="_blank" class="alert-link">I want to be a Bicycle Mayor for my city</a>.
+      </div>
       <div class="row mb-5 no-gutters">
         <div class="col-lg-4">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
               <i class="fas fa-bicycle m-auto text-success"></i>
             </div>
-            <h2>Campaigns</h2>
+            <h2>People</h2>
             <ul class="list-group list-group-flush">
               <li class="list-group-item list-group-item-action">
                 <button type="button" class="btn" data-toggle="modal" data-target="#CitiesFitForKids">
                   <p class="lead">Cities Fit for Kids</p>
                 <p class="text-justify text-muted">Learn about the programs we conduct to make cities safe for children</p>
+              </button>
+              </li>
+              <li class="list-group-item list-group-item-action">
+                <button type="button" class="btn" data-toggle="modal" data-target="#NeighbourhoodCycling">
+                  <p class="lead">Neighbourhood Cycling</p>
+                <p class="text-justify text-muted">The 15 minute city is the future. See how we are making it a reality in India.</p>
               </button>
               </li>
               <li class="list-group-item list-group-item-action">
@@ -84,7 +93,7 @@
               </li>
               <li class="list-group-item list-group-item-action">
                 <button type="button" class="btn" data-toggle="modal" data-target="#EmergencyResponse">
-                  <p class="lead">Emergency response</p>
+                  <p class="lead">Emergency Response</p>
                 <p class="text-justify text-muted">The bicycle is coming to the rescue this pandemic, learn how the bicycle has been providing relief</p>
                 </button>
               </li>
@@ -99,20 +108,20 @@
             <h2>Government</h2>
             <ul class="list-group list-group-flush">
               <li class="list-group-item list-group-item-action">
-                <button type="button" class="btn" data-toggle="modal" data-target="#Petitions">
-                  <p class="lead">Petitions</p>
+                <button type="button" class="btn" data-toggle="modal" data-target="#Advocacy">
+                  <p class="lead">Policy/Advocacy</p>
                 <p class="text-justify text-muted">We lobby for better bicycling infrastructure and policies in the country, learn how we do it.</p>
               </button>
               </li>
               <li class="list-group-item list-group-item-action">
                 <button type="button" class="btn" data-toggle="modal" data-target="#C4C">
-                  <p class="lead">India Cycles for Change</p>
+                  <p class="lead">Programs</p>
                 <p class="text-justify text-muted">See how we have participated in Indias flagship cycling program driven by the Ministry of Housing & Urban Affairs.</p>
                 </button>
               </li>
               <li class="list-group-item list-group-item-action">
                 <button type="button" class="btn" data-toggle="modal" data-target="#Infrastructure">
-                  <p class="lead">Infrastructure planning</p>
+                  <p class="lead">Infrastructure Planning</p>
                 <p class="text-justify text-muted">We partner with agencies to provide Infrastructure plans in cities, learn where we have done this.</p>
                 </button>
               </li>
@@ -144,10 +153,18 @@
                 <p class="text-justify text-muted">Data plays a major role in how we drive decision making and empower the community, government and our leaders, learn more and reach out to collaborate.</p>
                 </button>
               </li>
+              <li class="list-group-item list-group-item-action">
+                <button type="button" class="btn" data-toggle="modal" data-target="#Resources">
+                  <p class="lead">Resources</p>
+                <p class="text-justify text-muted">Resources & best practices</p>
+                </button>
+              </li>
             </ul>
           </div>
         </div>
-      </div>  
+      </div>
+    </div>
+  </section>
 
 <!-- Modal dialog box contents -->
 
@@ -163,6 +180,23 @@
         </div>
         <div class="modal-body">
           <p class="lead">Learn about the programs we conduct to make cities safe for children</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NeighbourhoodCycling Modal -->
+  <div class="modal fade" id="NeighbourhoodCycling" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-dark">
+          <h5 class="modal-title text-white" id="ModalTitle">Neighbourhood Cycling</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">The 15 minute city is the future. See how we are making it a reality in India.</p>
         </div>
       </div>
     </div>
@@ -204,36 +238,18 @@
     </div>
   </div>
    
-  <!-- Petitions Modal -->
-  <div class="modal fade" id="Petitions" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+  <!-- Advocacy Modal -->
+  <div class="modal fade" id="Advocacy" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header bg-dark">
-          <h5 class="modal-title text-white" id="ModalTitle">Petitions</h5>
+          <h5 class="modal-title text-white" id="ModalTitle">Policy/Advocacy</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
           <p class="lead">We lobby for better bicycling infrastructure and policies in the country, learn how we do it.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- C4C Modal -->
-  <div class="modal fade" id="C4C" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-header bg-dark">
-          <h5 class="modal-title text-white" id="ModalTitle">India Cycles for Change</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p class="lead">See how we have participated in Indias flagship cycling program driven by the Ministry of Housing & Urban Affairs.
           </p>
         </div>
       </div>
@@ -324,6 +340,24 @@
         </div>
         <div class="modal-body">
           <p class="lead">Data plays a major role in how we drive decision making and empower the community, government and our leaders, learn more and reach out to collaborate.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Resources Modal -->
+  <div class="modal fade" id="Resources" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-dark">
+          <h5 class="modal-title text-white" id="ModalTitle">Resources</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Resources, best practices and white papers.
           </p>
         </div>
       </div>
