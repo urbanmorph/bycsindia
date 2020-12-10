@@ -128,21 +128,55 @@ footer.footer {
 .navbarimg {
   height: 50px;
   width: auto;
+  border: none;
 }
 
-.bg-color1 {
-  background-color: #ffff66!important;
+.bg-bycs-yellow {
+  background-color: #FFE800!important;
 }
 
-.bg-color2 {
-  background-color: #ff9912!important;
+.bg-bycs-blue {
+  background-color: #0097CE!important;
 }
 
-.bg-color3 {
-  background-color: #ff8000!important;
+.bg-bycs-green {
+  background-color: #38D430!important;
 }
 
-.bg-color4 {
-  background-color: #fd4e00!important;
+.bg-bycs-orange {
+  background-color: #FF5100!important;
 }
 
+.bg-bycs-black {
+  background-color: #000000!important;
+}
+
+.bg-bycs-pink {
+  background-color: #FF40B4!important;
+}
+
+.bg-bycs-earth {
+  background-color: #7B6756!important;
+}
+
+.bg-bycs-white {
+  background-color: #ffffff!important;
+}
+
+.navbar-custom {
+    background-color: #ffffff;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #000000;
+}
