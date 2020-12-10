@@ -181,3 +181,9 @@ footer.footer {
     color: #000000;
     background: #FFE800;
 }
+
+.navbar-toggler[aria-expanded="true"],
+.navbar-toggler[aria-expanded="false"]{
+  color: #000;
+  border-color: gray;
+}
